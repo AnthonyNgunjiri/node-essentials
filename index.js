@@ -1,7 +1,13 @@
 const amount = 12
-if (amount<10){
-    console.log('small number')
+const ben = "benard"
+const gen='generic'
+const ann = 'arianna'
+const lord ='lordrigus'
+// if (amount<10){
+//     console.log('small number')
 
-}else{
-console.log("this is a  larger number")
-}
+// }else{
+// console.log("this is a  larger number")
+// }
+
+module.exports = {ben,gen,ann,lord}
