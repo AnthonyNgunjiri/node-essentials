@@ -20,8 +20,8 @@
 //  other built in modules
 
 // var http = require('http');
-var dt = require('./myfirstmodule');
-
-console.log(`The current date and time is: ${dt.myDateTime()}`); // Call the function from the module
+ require('./myfirstmodule');//invoking  a function from a module
+var dt = require('./firstmodule')//importing a module
+// console.log(`The current date and time is: ${dt.myDateTime()}`); // Call the function from the module
 
  
